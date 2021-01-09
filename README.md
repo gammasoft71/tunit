@@ -3,8 +3,8 @@
 [![Build Status](https://travis-ci.org/gammasoft71/xtd_tunit.svg?branch=master)](https://travis-ci.org/gammasoft71/xtd_tunit)
 [![Build status](https://ci.appveyor.com/api/projects/status/1h8y1d4lodnk1wbb?svg=true)](https://ci.appveyor.com/project/gammasoft71/xtd-tunit)
 [![Reference Guide](https://img.shields.io/badge/code-Reference_Guide-brightgreen.svg)](https://codedocs.xyz/gammasoft71/xtd_tunit/)
-[![Documentation](https://img.shields.io/badge/wiki-Documentaions-brightgreen.svg)](./docs/documentation.md)
 [![Website](https://img.shields.io/badge/web-xtd--tunit-brightgreen.svg)](https://gammasoft71.wixsite.com/xtd-tunit)
+[![Wiki](https://img.shields.io/badge/wiki-Documentaions-brightgreen.svg)](./docs/documentation.md)
 [![license](https://img.shields.io/github/license/gammasoft71/xtd.tunit.svg)](LICENSE.md)
 [![SourceForge Download tunit](https://img.shields.io/sourceforge/dt/tunitpro.svg)](https://sourceforge.net/projects/tunitpro/files/latest/download)
 <!--- 
