@@ -1,6 +1,6 @@
 # xtd.tunit
 
-Modern c++17 unit testing framework on Windows, macOS, Linux, iOS and android.
+**Modern c++17 unit testing framework on Windows, macOS, Linux, iOS and android.**
 
 [![tunit](docs/pictures/tunit_header.png)](https://gammasoft71.wixsite.com/xtd-tunit)
 
