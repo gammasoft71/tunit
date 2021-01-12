@@ -25,7 +25,7 @@
 * ...
 
 For more information see:
-* [xtd.tunit website](https://gammasoft71.wixsite.com/xtd-tunit) 
+* [website](https://gammasoft71.wixsite.com/xtd-tunit) 
 * [markdown documentations](docs/home.md)
 * [sources](https://github.com/gammasoft71/xtd_tunit)
 * [Reference Guide](https://codedocs.xyz/gammasoft71/xtd_tunit/)
