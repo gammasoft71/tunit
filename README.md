@@ -17,8 +17,6 @@ Modern c++17 unit testing framework on Windows, macOS, Linux, iOS and android.
 
 [![SourceForge Download tunit](https://img.shields.io/sourceforge/dt/tunitpro.svg)](https://sourceforge.net/projects/tunitpro/files/latest/download)
 
-Modern c++17 unit testing framework on Windows, macOS, Linux, iOS and android.
-
 ## Features
 
 * An [xUnit](https://en.wikipedia.org/wiki/XUnit) test framework.
