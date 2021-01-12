@@ -24,7 +24,11 @@ Modern c++17 unit testing framework on Windows, macOS, Linux, iOS and android.
 * Rich set of assertions.
 * ...
 
-For more information see [xtd.tunit website](https://gammasoft71.wixsite.com/xtd-tunit) (or [markdown documentations](docs/home.md)) and [Reference Guide](https://codedocs.xyz/gammasoft71/xtd_tunit/).
+For more information see:
+* [xtd.tunit website](https://gammasoft71.wixsite.com/xtd-tunit) 
+* [markdown documentations](docs/home.md)
+* [sources](https://github.com/gammasoft71/xtd_tunit)
+* [Reference Guide](https://codedocs.xyz/gammasoft71/xtd_tunit/)
 
 ## Examples
 
