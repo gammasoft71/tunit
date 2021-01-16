@@ -1,4 +1,4 @@
-| [Home](home.md) | [Downloads](downloads.md) | [Examples](examples.md) | [Documentation](documentation.md) | [Sources](https://github.com/gammasoft71/xtd.tunit) | [Project](https://sourceforge.net/projects/tunitpro/) | [Contact](contact.md) | [Gammasoft](https://gammasoft71.wixsite.com/gammasoft) |
+| [Home](home.md) | [Downloads](downloads.md) | [Examples](examples.md) | [Documentation](documentation.md) | [Sources](https://github.com/gammasoft71/tunit) | [Project](https://sourceforge.net/projects/tunitpro/) | [Contact](contact.md) | [Gammasoft](https://gammasoft71.wixsite.com/gammasoft) |
 
 # Writing tests
 
@@ -16,14 +16,14 @@
 
 ## Namespace
 
-xtd.tunit has a unqiue namespace : ***xtd::tunit***.
+tunit has a unqiue namespace : ***tunit***.
 
-This example show how to use xtd.tunit with using namespace:
+This example show how to use tunit with using namespace:
 
 ```c++
-#include <xtd/tunit>
+#include <tunit/tunit>
 
-using namespace xtd::tunit;
+using namespace tunit;
 
 namespace unit_tests {
   class test_class_(test) {
@@ -42,30 +42,30 @@ int main(int argc, char* argv[]) {
 ```
 
 
-This example show how to use xtd.tunit without using namespace:
+This example show how to use tunit without using namespace:
 
 ```c++
-#include <xtd/tunit>
+#include <tunit/tunit>
 
 namespace unit_tests {
   class test_class_(test) {
   public:
     // Test case 1
     void test_method_(test_case1) {
-      xtd::tunit::assert::is_true(2 + 2 == 4);
+      tunit::assert::is_true(2 + 2 == 4);
     }
   };
 }
 
 
 int main(int argc, char* argv[]) {
-  return xtd::tunit::console_unit_test(argv, argc).run();
+  return tunit::console_unit_test(argv, argc).run();
 }
 ```
 
 ## Helpers
 
-xtd.tunit uses custom helpers to identify test fixtures and test methods. It's the easy way to create tests.
+tunit uses custom helpers to identify test fixtures and test methods. It's the easy way to create tests.
 
 | helpers                                                   | Usage                                                                                                                            |
 |-----------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
@@ -76,16 +76,16 @@ xtd.tunit uses custom helpers to identify test fixtures and test methods. It's t
 | [test_cleanup_(cleanup_name)](test_cleanup.md)            | Is used to define test cleanup method with cleanup_name name.                                                                    |
 | [test_method_(method_name)](test_method.md)               | Is used to define test method (test case) with method_name name.                                                                 |
 | [ingore_test_method_(method_name)](ingore_test_method.md) | Is used to define ignored test method (test case) with method_name name.                                                         |
-| [line_info_](line_info.md)                                | Is used to create a xtd::tunit::line_info class initialized with current method name, current file name and current line number. |
+| [line_info_](line_info.md)                                | Is used to create a tunit::line_info class initialized with current method name, current file name and current line number. |
 
 ### Examples
 
 The following example shows how to create and register fixture and test cases with helpers :
 
 ```c++
-#include <xtd/tunit>
+#include <tunit/tunit>
 
-using namespace xtd::tunit;
+using namespace tunit;
 
 namespace unit_tests {
   // Create new test fixture with test_class_ helper.
@@ -129,9 +129,9 @@ int main(int argc, char* argv[]) {
 The following example shows how to create and register same fixture and same test cases without helpers :
 
 ```c++
-#include <xtd/tunit>
+#include <tunit/tunit>
 
-using namespace xtd::tunit;
+using namespace tunit;
 
 namespace unit_tests {
   // Used test_class_attribute<> to register test fixture.
@@ -199,11 +199,11 @@ int main(int argc, char* argv[]) {
 The following example shows how to get current informations with helper :
 
 ```c++
-#include <xtd/tunit>
+#include <tunit/tunit>
 #include <iostream>
 
 using namespace std;
-using namespace xtd::tunit;
+using namespace tunit;
 
 void trace_message(const string& message, const line_info& info) {
   cout << "message: " << message << endl;
@@ -220,11 +220,11 @@ int main() {
 The following example shows how to get same current informations without helper :
 
 ```c++
-#include <xtd/tunit>
+#include <tunit/tunit>
 #include <iostream>
 
 using namespace std;
-using namespace xtd::tunit;
+using namespace tunit;
 
 void trace_message(const string& message, const line_info& info) {
   cout << "message: " << message << endl;
@@ -258,9 +258,9 @@ string_valid::are_equal_ignoring_case_("value");
 The following example shows hot to call are_equal assertion tests with helper :
 
 ```c++
-#include <xtd/tunit>
+#include <tunit/tunit>
 
-using namespace xtd::tunit;
+using namespace tunit;
 
 namespace unit_tests {
   class test_class_(test) {
@@ -281,9 +281,9 @@ int main(int argc, char* argv[]) {
 The following example shows hot to call the same are_equal assertion tests without helper :
 
 ```c++
-#include <xtd/tunit>
+#include <tunit/tunit>
 
-using namespace xtd::tunit;
+using namespace tunit;
 
 namespace unit_tests {
   class test_class_(test) {
@@ -319,7 +319,7 @@ assert::is_instance_of_(std::ios_base, stream);
 
 ## Assertions
 
-Assertions are central to unit testing in any of the xUnit frameworks, and xtd.tunit is no exception. xtd.tunit provides a rich set of assertions as static methods of the Assert class.
+Assertions are central to unit testing in any of the xUnit frameworks, and tunit is no exception. tunit provides a rich set of assertions as static methods of the Assert class.
 
 If an assertion fails, the method call does not return and an error is reported. If a test contains multiple assertions, any that follow the one that failed will not be executed. For this reason, it's usually best to try for one assertion per test.
 
@@ -404,4 +404,4 @@ Test class or Test fixture...
 
 ______________________________________________________________________________________________
 
-© 2020 Gammasoft.
+© 2021 Gammasoft.

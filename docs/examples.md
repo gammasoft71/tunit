@@ -1,17 +1,17 @@
-| [Home](home.md) | [Downloads](downloads.md) | [Examples](examples.md) | [Documentation](documentation.md) | [Sources](https://github.com/gammasoft71/xtd.tunit) | [Project](https://sourceforge.net/projects/tunitpro/) | [Contact](contact.md) | [Gammasoft](https://gammasoft71.wixsite.com/gammasoft) |
+| [Home](home.md) | [Downloads](downloads.md) | [Examples](examples.md) | [Documentation](documentation.md) | [Sources](https://github.com/gammasoft71/tunit) | [Project](https://sourceforge.net/projects/tunitpro/) | [Contact](contact.md) | [Gammasoft](https://gammasoft71.wixsite.com/gammasoft) |
 
 # Example
 
 The classic first application 'Hello World'.
 
-src/tunit_hello_world.cpp:
+tunit_hello_world.cpp:
 
 ```c++
-#include <xtd/tunit>
+#include <tunit/tunit>
 #include <string>
 
 using namespace std;
-using namespace xtd::tunit;
+using namespace tunit;
 
 namespace unit_tests {
   class test_class_(hello_world_test) {
@@ -40,9 +40,9 @@ CMakeLists.txt:
 cmake_minimum_required(VERSION 3.3)
 
 project(tunit_hello_world)
-find_package(xtd.tunit REQUIRED)
-add_executable(${PROJECT_NAME} src/tunit_hello_world.cpp)
-target_link_libraries(${PROJECT_NAME} xtd.tunit)
+find_package(tunit REQUIRED)
+add_executable(${PROJECT_NAME} tunit_hello_world.cpp)
+target_link_libraries(${PROJECT_NAME} tunit)
 ```
 
 Output:
@@ -62,4 +62,4 @@ End 2 tests from 1 test case ran. (0 ms total)
 
 ______________________________________________________________________________________________
 
-© 2020 Gammasoft.
+© 2021 Gammasoft.

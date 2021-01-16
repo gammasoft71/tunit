@@ -1,4 +1,4 @@
-| [Home](home.md) | [Downloads](downloads.md) | [Examples](examples.md) | [Documentation](documentation.md) | [Sources](https://github.com/gammasoft71/xtd.tunit) | [Project](https://sourceforge.net/projects/tunitpro/) | [Contact](contact.md) | [Gammasoft](https://gammasoft71.wixsite.com/gammasoft) |
+| [Home](home.md) | [Downloads](downloads.md) | [Examples](examples.md) | [Documentation](documentation.md) | [Sources](https://github.com/gammasoft71/tunit) | [Project](https://sourceforge.net/projects/tunitpro/) | [Contact](contact.md) | [Gammasoft](https://gammasoft71.wixsite.com/gammasoft) |
 
 # Test class (test_class)
 
@@ -20,9 +20,9 @@ It is advisable that the constructor not have any side effects, since NUnit may 
 The following examples shows how to register a test class with test_class_ helper:
 
 ```c++
-#include <xtd/tunit>
+#include <tunit/tunit>
 
-using namespace xtd::tunit;
+using namespace tunit;
 
 namespace unit_tests {
   class test_class_(test) {
@@ -42,9 +42,9 @@ For generic test_class actually no helper is provided.
 The folowing example show how to register a generic test class without helper:
 
 ```c++
-#include <xtd/tunit>
+#include <tunit/tunit>
 
-using namespace xtd::tunit;
+using namespace tunit;
 
 namespace unit_tests {
   template<typename T>
@@ -77,9 +77,9 @@ The test_class may be applied to a base class and is inherited by any derived cl
 The following code show how to register a derived class with helper :
 
 ```c++
-#include <xtd/tunit>
+#include <tunit/tunit>
 
-using namespace xtd::tunit;
+using namespace tunit;
 
 namespace unit_tests {
   class base_test : public test_class {
@@ -106,4 +106,4 @@ int main(int argc, char* argv[]) {
 
 ______________________________________________________________________________________________
 
-© 2020 Gammasoft.
+© 2021 Gammasoft.

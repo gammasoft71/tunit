@@ -702,7 +702,7 @@ ________________________________________________________________________________
 
 Version 0.1.0 (beta) February 24th 2019
 
-First version of xtd.tunit.
+First version of tunit.
 
 ## Tests :
 
