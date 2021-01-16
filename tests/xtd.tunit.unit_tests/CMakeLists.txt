@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.3)
 
 # Project
-project(xtd.tunit.unit_tests)
+project(tunit.unit_tests)
 set(SOURCES
   src/assert_unit_tests.h
   src/main.cpp
@@ -143,7 +143,7 @@ endif ()
 # Target
 add_executable(${PROJECT_NAME} ${SOURCES})
 target_link_libraries(${PROJECT_NAME} tunit)
-set_target_properties(${PROJECT_NAME} PROPERTIES FOLDER "xtd/tests")
+set_target_properties(${PROJECT_NAME} PROPERTIES FOLDER "tunit/tests")
 
 # Tests
 add_test(NAME ${PROJECT_NAME} COMMAND $<TARGET_FILE_NAME:${PROJECT_NAME}> WORKING_DIRECTORY $<TARGET_FILE_DIR:${PROJECT_NAME}>)
