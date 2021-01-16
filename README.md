@@ -1,19 +1,19 @@
-# xtd.tunit
+# tunit
 
 **Modern c++17 unit testing framework on Windows, macOS, Linux, iOS and android.**
 
-[![tunit](docs/pictures/tunit_header.png)](https://gammasoft71.wixsite.com/xtd-tunit)
+[![tunit](docs/pictures/tunit_header.png)](https://gammasoft71.wixsite.com/tunit)
 
 ## Continuous Integration build status
 
-| Operating system | Status                                                                                                                                          |
-|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| Windows          | [![Build status](https://ci.appveyor.com/api/projects/status/1h8y1d4lodnk1wbb?svg=true)](https://ci.appveyor.com/project/gammasoft71/xtd-tunit) |
-| macOS            | [![Build Status](https://travis-ci.org/gammasoft71/xtd_tunit.svg?branch=master)](https://travis-ci.org/gammasoft71/xtd_tunit)                   |
-| Linux            | [![Build Status](https://travis-ci.org/gammasoft71/xtd_tunit.svg?branch=master)](https://travis-ci.org/gammasoft71/xtd_tunit)                   |
+| Operating system | Status                                                                                                                                      |
+|------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| Windows          | [![Build status](https://ci.appveyor.com/api/projects/status/1h8y1d4lodnk1wbb?svg=true)](https://ci.appveyor.com/project/gammasoft71/tunit) |
+| macOS            | [![Build Status](https://travis-ci.org/gammasoft71/tunit.svg?branch=master)](https://travis-ci.org/gammasoft71/tunit)                       |
+| Linux            | [![Build Status](https://travis-ci.org/gammasoft71/tunit.svg?branch=master)](https://travis-ci.org/gammasoft71/tunit)                       |
 
 
-## Download the latest stable xtd.tunit version
+## Download the latest stable tunit version
 
 [![SourceForge Download tunit](https://img.shields.io/sourceforge/dt/tunitpro.svg)](https://sourceforge.net/projects/tunitpro/files/latest/download)
 
@@ -25,10 +25,10 @@
 * ...
 
 For more information see:
-* [website](https://gammasoft71.wixsite.com/xtd-tunit) 
+* [website](https://gammasoft71.wixsite.com/tunit) 
 * [markdown documentations](docs/home.md)
-* [sources](https://github.com/gammasoft71/xtd_tunit)
-* [Reference Guide](https://codedocs.xyz/gammasoft71/xtd_tunit/)
+* [sources](https://github.com/gammasoft71/tunit)
+* [Reference Guide](https://codedocs.xyz/gammasoft71/tunit/)
 
 ## Examples
 
@@ -37,11 +37,11 @@ The classic first application 'Hello World'.
 ### src/tunit_hello_world.cpp
 
 ```c++
-#include <xtd/tunit>
+#include <tunit/tunit>
 #include <string>
 
 using namespace std;
-using namespace xtd::tunit;
+using namespace tunit;
 
 namespace unit_tests {
   class test_class_(hello_world_test) {
@@ -73,9 +73,9 @@ int main() {
 cmake_minimum_required(VERSION 3.3)
 
 project(tunit_hello_world)
-find_package(xtd.tunit REQUIRED)
+find_package(tunit REQUIRED)
 add_executable(${PROJECT_NAME} src/tunit_hello_world.cpp)
-target_link_libraries(${PROJECT_NAME} xtd.tunit)
+target_link_libraries(${PROJECT_NAME} tunit)
 ```
 
 ### Output
