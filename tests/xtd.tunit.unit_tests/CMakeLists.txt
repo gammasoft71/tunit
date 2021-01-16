@@ -142,7 +142,7 @@ endif ()
 
 # Target
 add_executable(${PROJECT_NAME} ${SOURCES})
-target_link_libraries(${PROJECT_NAME} xtd.tunit)
+target_link_libraries(${PROJECT_NAME} tunit)
 set_target_properties(${PROJECT_NAME} PROPERTIES FOLDER "xtd/tests")
 
 # Tests

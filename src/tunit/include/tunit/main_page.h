@@ -16,7 +16,7 @@
 ///
 /// src/tunit_hello_world.cpp:
 /// @code
-/// #include <xtd/xtd.tunit>
+/// #include <tunit/xtd.tunit>
 /// #include <string>
 ///
 /// using namespace std;

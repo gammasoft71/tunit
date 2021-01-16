@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.3)
 
 # Solution
-project(xtd.tunit)
+project(tunit)
 
 # Options
 set(CMAKE_DEBUG_POSTFIX d)
@@ -11,9 +11,9 @@ if (NOT DEFINED EXPORT_PROJECT_NAME)
 endif ()
 
 # Add compile and link flags
-option(XTD_ENABLE_COMPILER_OPTION_WARNINGS_TO_ALL "Enable compiler option warnings to all" ON)
-option(XTD_ENABLE_COMPILER_OPTION_WARNINGS_AS_ERRORS "Enable compiler option warnings as errors" ON)
-if (XTD_ENABLE_COMPILER_OPTION_WARNINGS_TO_ALL)
+option(TUNIT_SET_COMPILER_OPTION_WARNINGS_TO_ALL "Enable compiler option warnings to all" ON)
+option(TUNIT_SET_COMPILER_OPTION_WARNINGS_AS_ERRORS "Enable compiler option warnings as errors" ON)
+if (TUNIT_SET_COMPILER_OPTION_WARNINGS_TO_ALL)
   if (MSVC)
     add_definitions(-D_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS)
     add_compile_options(/W4 /wd4100 /wd4458 /wd4996)
@@ -21,7 +21,7 @@ if (XTD_ENABLE_COMPILER_OPTION_WARNINGS_TO_ALL)
     add_compile_options(-Wall -Wextra -Wno-unused-parameter -pedantic)
   endif()
 endif()
-if (XTD_ENABLE_COMPILER_OPTION_WARNINGS_AS_ERRORS)
+if (TUNIT_SET_COMPILER_OPTION_WARNINGS_AS_ERRORS)
   if (MSVC)
     add_compile_options(/WX)
   else()
@@ -30,8 +30,8 @@ if (XTD_ENABLE_COMPILER_OPTION_WARNINGS_AS_ERRORS)
 endif()
 
 # Code coverage
-option(ENABLE_COVERAGE "Enable code coverage" OFF)
-if (ENABLE_COVERAGE AND UNIX)
+option(TUNIT_ENABLE_COVERAGE "Enable code coverage" OFF)
+if (TUNIT_ENABLE_COVERAGE AND UNIX)
   set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O0 -g --coverage")
   set(CMAKE_LINKER_FLAGS "${CMAKE_LINKER_FLAGS} --coverage")
 endif()
@@ -40,8 +40,8 @@ endif()
 add_subdirectory(src)
 
 # Tests projects
-option(ENABLE_TESTS "Enable tests" OFF)
-if (ENABLE_TESTS)
+option(TUNIT_ENABLE_TESTS "Enable tests" OFF)
+if (TUNIT_ENABLE_TESTS)
   enable_testing()
   add_subdirectory(tests)
 endif()
