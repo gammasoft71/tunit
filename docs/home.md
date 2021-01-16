@@ -2,11 +2,7 @@
 
 [![tunit](pictures/unit_test_background.png)](https://gammasoft71.wixsite.com/tunit)
 
-# tunit is ...
-
-Modern c++17 unit testing framework on Windows, macOS, Linux, iOS and android.
-
-# Features
+# tunit
 
 * An [xUnit](https://en.wikipedia.org/wiki/XUnit) test framework.
 * Modern c++17.
