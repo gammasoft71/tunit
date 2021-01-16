@@ -1,5 +1,7 @@
 | [Home](home.md) | [Downloads](downloads.md) | [Examples](examples.md) | [Documentation](documentation.md) | [Sources](https://github.com/gammasoft71/tunit) | [Project](https://sourceforge.net/projects/tunitpro/) | [Contact](contact.md) | [Gammasoft](https://gammasoft71.wixsite.com/gammasoft) |
 
+[![tunit](docs/pictures/unit_test_background.png)](https://gammasoft71.wixsite.com/tunit)
+
 # tunit is ...
 
 Modern c++17 unit testing framework on Windows, macOS, Linux, iOS and android.
