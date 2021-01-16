@@ -1,6 +1,6 @@
 #include <tunit/tunit>
 
-using namespace xtd::tunit;
+using namespace tunit;
 
 enum class day {
   sunday,

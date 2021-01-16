@@ -1,7 +1,7 @@
 /// @file
 /// @brief Contains doygen main page.
 
-/// @mainpage xtd.tunit - Reference Guide Documentation
+/// @mainpage tunit - Reference Guide Documentation
 ///
 /// @section FeaturesSection Features
 ///   * An <a href="https://en.wikipedia.org/wiki/XUnit">xUnit</a> test framework.
@@ -9,7 +9,7 @@
 ///   * Rich set of assertions.
 ///   * ...
 ///
-/// For more information see <a href="https://gammasoft71.wixsite.com/xtd-tunit">xtd.tunit website</a> (or <a href="https://github.com/gammasoft71/xtd.tunit/blob/master/docs/home.md">markdown documentations</a>) and <a href="https://codedocs.xyz/gammasoft71/xtd.tunit/">Reference Guide</a>).
+/// For more information see <a href="https://gammasoft71.wixsite.com/tunit">tunit website</a> (or <a href="https://github.com/gammasoft71/tunit/blob/master/docs/home.md">markdown documentations</a>) and <a href="https://codedocs.xyz/gammasoft71/tunit/">Reference Guide</a>).
 ///
 /// @section ExamplesSection Examples
 /// The classic first application 'Hello World'.
@@ -20,7 +20,7 @@
 /// #include <string>
 ///
 /// using namespace std;
-/// using namespace xtd::tunit;
+/// using namespace tunit;
 ///
 /// namespace unit_tests {
 ///   class test_class_(hello_world_test) {
@@ -46,7 +46,7 @@
 /// }
 /// @endcode
 ///
-/// For more examples see <a href="https://github.com/gammasoft71/xtd.tunit/tree/master/examples/">examples</a>.
+/// For more examples see <a href="https://github.com/gammasoft71/tunit/tree/master/examples/">examples</a>.
 ///
 /// @section DownloadSection Download and install
-/// Before running examples you must download and install xtd.tunit. To download and install it read <a href="https://github.com/gammasoft71/xtd.tunit/blob/master/docs/downloads.md">Downloads.md</a> file.
+/// Before running examples you must download and install tunit. To download and install it read <a href="https://github.com/gammasoft71/tunit/blob/master/docs/downloads.md">Downloads.md</a> file.

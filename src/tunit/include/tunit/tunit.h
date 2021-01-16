@@ -1,5 +1,5 @@
 /// @file
-/// @brief Contains xtd::tunit::unit_test class.
+/// @brief Contains tunit::unit_test class.
 #pragma once
 
 /// @defgroup tunit tunit

@@ -1,4 +1,4 @@
 /// @file
-/// @brief Contains xtd::unit_test class.
+/// @brief Contains unit_test class.
 #pragma once
 #include "tunit.h"

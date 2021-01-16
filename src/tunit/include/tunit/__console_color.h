@@ -48,7 +48,7 @@ public:
   
   template<typename Char>
   friend std::basic_ostream<Char>& operator <<(std::basic_ostream<Char>& os, const __foreground_color& color) {
-    if (os.rdbuf() == __opaque_get_out_rdbuf<Char>() && xtd::tunit::settings::default_settings().output_color())
+    if (os.rdbuf() == __opaque_get_out_rdbuf<Char>() && tunit::settings::default_settings().output_color())
       __opaque_foreground_color(color.color_);
     return os;
   }
@@ -63,7 +63,7 @@ public:
   
   template<typename Char>
   friend std::basic_ostream<Char>& operator <<(std::basic_ostream<Char>& os, const __reset_color&) {
-    if (os.rdbuf() == __opaque_get_out_rdbuf<Char>() && xtd::tunit::settings::default_settings().output_color())
+    if (os.rdbuf() == __opaque_get_out_rdbuf<Char>() && tunit::settings::default_settings().output_color())
       __opaque_reset_color();
     return os;
   }
