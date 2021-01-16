@@ -1,5 +1,5 @@
 #include "assert_unit_tests.h"
-#include <tunit/xtd.tunit>
+#include <tunit/tunit>
 
 namespace unit_tests {
   class test_class_(test_string_assert_are_equal_ignoring_case_const_char_pointer_succeed) {

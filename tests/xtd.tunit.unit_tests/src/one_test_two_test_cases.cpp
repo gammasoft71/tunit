@@ -1,5 +1,5 @@
 #include "assert_unit_tests.h"
-#include <tunit/xtd.tunit>
+#include <tunit/tunit>
 
 namespace unit_tests {
   class test_class_(one_test_two_test_cases) {

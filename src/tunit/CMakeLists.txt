@@ -51,8 +51,6 @@ set(INCLUDES
   include/tunit/tunit_main.h
   include/tunit/unit_test.h
   include/tunit/valid.h
-  include/tunit/xtd.tunit
-  include/tunit/xtd.tunit.h
 )
 set(SOURCES
   src/tunit/__console_color_gcc.cpp
