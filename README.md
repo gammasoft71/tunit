@@ -12,7 +12,6 @@
 | macOS            | [![Build Status](https://travis-ci.org/gammasoft71/tunit.svg?branch=master)](https://travis-ci.org/gammasoft71/tunit)                       |
 | Linux            | [![Build Status](https://travis-ci.org/gammasoft71/tunit.svg?branch=master)](https://travis-ci.org/gammasoft71/tunit)                       |
 
-
 ## Download the latest stable tunit version
 
 [![SourceForge Download tunit](https://img.shields.io/sourceforge/dt/tunitpro.svg)](https://sourceforge.net/projects/tunitpro/files/latest/download)
