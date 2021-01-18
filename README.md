@@ -33,7 +33,7 @@ For more information see:
 
 The classic first application 'Hello World'.
 
-### src/tunit_hello_world.cpp
+### tunit_hello_world.cpp
 
 ```c++
 #include <tunit/tunit>
@@ -73,7 +73,7 @@ cmake_minimum_required(VERSION 3.3)
 
 project(tunit_hello_world)
 find_package(tunit REQUIRED)
-add_executable(${PROJECT_NAME} src/tunit_hello_world.cpp)
+add_executable(${PROJECT_NAME} tunit_hello_world.cpp)
 target_link_libraries(${PROJECT_NAME} tunit)
 ```
 
