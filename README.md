@@ -92,7 +92,8 @@ End 2 tests from 1 test case ran. (0 ms total)
 ## Getting Started
 
 * [Installation](docs/downloads.md) provides download and install documentation.
-* [Examples](examples) provides some examples.
+* [Portability](docs/portability.md) provides information about C++, libraries dependency, Operating System suported, Compilators and Devepment Environment tools.
+* [Examples](docs/examples.md) provides some examples.
 
 ______________________________________________________________________________________________
 

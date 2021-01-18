@@ -5,7 +5,7 @@
 ## In This Section
 
 * [Installation](downloads.md) provide download and install documentation.
-* [C++ and system](c++.md) provide C++, Operating System and compilers documentation.
+* [Portability](portability.md) provides information about C++, libraries dependency, Operating System suported, Compilators and Devepment Environment tools.
 * [Examples](../examples) provide some examples.
 
 ## See also
