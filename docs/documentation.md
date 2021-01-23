@@ -11,7 +11,7 @@ This section contains the tunit documentation. ​
 * [Reference Guide](https://codedocs.xyz/gammasoft71/tunit/) provide online user reference guide.
 * [Development status](development_status.md) provide information about classes development status.
 * [Release notes](release_notes.md) provide release notes information.
-* [Portability](portability.md) rovide information about C++, libraries dependency, Operating System suported, Compilators and Devepment Environment tools.
+* [Portability](portability.md) provide information about C++, libraries dependency, Operating System suported, Compilators and Devepment Environment tools.
 * [License](license.md) provide license information.
 * [Links](links.md) list the essential links.
 
