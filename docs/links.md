@@ -68,7 +68,7 @@ ASCII stands for American Standard Code for Information Interchange. Computers c
 
 Learn to use .NET to create applications on any platform using C#, Visual Basic, and F#. Browse API reference, sample code, tutorials, and more.
 
-# NET Framework Development Guide
+# .NET Framework Development Guide
 
 [https://msdn.microsoft.com/en-us/library/hh156542(v=vs.110).aspx](https://msdn.microsoft.com/en-us/library/hh156542(v=vs.110).aspx)
 
