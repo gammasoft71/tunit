@@ -23,7 +23,7 @@
 * Rich set of assertions.
 * ...
 
-For more information see:
+### For more information see
 * [website](https://gammasoft71.wixsite.com/tunit) 
 * [markdown documentations](docs/home.md)
 * [sources](https://github.com/gammasoft71/tunit)
